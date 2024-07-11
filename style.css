@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header , main {
+    width:  80%;
+    margin: 0 auto;
+}
+
+/* .navbar-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
+
+.title-name{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .title-text {
+  font-size:  36px;
+  font-weight: 800;
+  padding-left: 5px;
+}
+
+nav {
+    margin-top: 4.5rem;
+    display: flex;
+    gap: 2.75rem;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    gap: 2.75rem;
+    padding-bottom: 50px;
+  }
+  
+  nav li {
+    color: #424247;
+    font-size: 1.275;
+    font-weight: 400;
+  }
+
+  .travel {
+    color: #ff5400;
+  }
+
+  .hamburger {
+    display: none;
+    visibility: hidden;
+  }
