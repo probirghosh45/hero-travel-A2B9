@@ -1,15 +1,15 @@
-
 /* Initial Configuration */
 
-@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
 
 * {
   margin: 0;
   padding: 0;
-  font-family: "Mulish" , sans-serif;
+  font-family: "Mulish", sans-serif;
 }
 
-header,main {
+header,
+main {
   width: 80%;
   margin: 0 auto;
 }
@@ -67,7 +67,6 @@ nav li {
   visibility: hidden;
 }
 
-
 /* Hero Section Style */
 .hero-section {
   background-image: url("./Images/hero-cover.png");
@@ -109,7 +108,8 @@ nav li {
   justify-content: center;
 }
 
-.hero-form select,input {
+.hero-form select,
+input {
   width: 20%;
   height: 3rem;
   border-radius: 0.5rem;
@@ -123,8 +123,8 @@ nav li {
 .submit-button {
   border-radius: 0.5rem;
   background: rgb(255, 84, 0);
-width: 30%;
-height: 3rem;
+  width: 30%;
+  height: 3rem;
   border: 0;
   padding-left: 1rem;
   font-size: 1rem;
@@ -137,12 +137,12 @@ height: 3rem;
 
 /* Popular Section Style */
 
-.popular-section{
+.popular-section {
   padding: 50px 0;
 }
 
-.popular-container{
-  display:  flex;
+.popular-container {
+  display: flex;
 }
 
 .popular-container img {
@@ -151,11 +151,11 @@ height: 3rem;
   border-radius: 1 rem;
 }
 
-.popular-column-left{
+.popular-column-left {
   width: 60%;
 }
 
-.popular-title{
+.popular-title {
   color: rgb(19, 19, 24);
   font-size: 40px;
   font-weight: 800;
@@ -163,7 +163,7 @@ height: 3rem;
   letter-spacing: 0%;
 }
 
-.popular-desc{
+.popular-desc {
   color: rgba(19, 19, 24, 0.7);
   font-size: 16px;
   font-weight: 400;
@@ -180,11 +180,11 @@ height: 3rem;
 
 /* Destination Section */
 
-.destination-section{
+.destination-section {
   padding: 50px 0;
 }
 
-.destination-title{
+.destination-title {
   color: rgb(19, 19, 24);
   font-size: 40px;
   font-weight: 800;
@@ -193,7 +193,7 @@ height: 3rem;
   text-align: center;
 }
 
-.destination-desc{
+.destination-desc {
   color: rgba(19, 19, 24, 0.7);
   font-size: 16px;
   font-weight: 400;
@@ -203,14 +203,15 @@ height: 3rem;
   text-align: center;
 }
 
-.row-one , .row-three{
+.row-one,
+.row-three {
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(2, 1fr);
   height: 300px;
   gap: 2rem;
 }
 
-.row-two{
+.row-two {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
   height: 286px;
@@ -229,10 +230,9 @@ height: 3rem;
   background-repeat: no-repeat !important;
   background-size: cover !important;
   background-position: center !important;
-  ; 
 }
-.maldives{
-    background: linear-gradient(
+.maldives {
+  background: linear-gradient(
       0deg,
       rgba(19, 19, 24, 0.2) 0%,
       rgba(19, 19, 24, 0.2) 100%
@@ -240,59 +240,115 @@ height: 3rem;
     url("./Images/maldives.png"), lightgray 50%;
 }
 
-.indonesia{
+.indonesia {
   background: linear-gradient(
-    0deg,
-    rgba(19, 19, 24, 0.2) 0%,
-    rgba(19, 19, 24, 0.2) 100%
-  ),
-  url("./Images/indonesia.png"), lightgray 50%;
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url("./Images/indonesia.png"), lightgray 50%;
 }
 
-.srilanka{
+.srilanka {
   background: linear-gradient(
-    0deg,
-    rgba(19, 19, 24, 0.2) 0%,
-    rgba(19, 19, 24, 0.2) 100%
-  ),
-  url("./Images/srilanka.png"), lightgray 50%;
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url("./Images/srilanka.png"), lightgray 50%;
 }
 
-.north-america{
+.north-america {
   background: linear-gradient(
-    0deg,
-    rgba(19, 19, 24, 0.2) 0%,
-    rgba(19, 19, 24, 0.2) 100%
-  ),
-  url("./Images/north-america.png"), lightgray 50%;
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url("./Images/north-america.png"), lightgray 50%;
 }
 
-
-.kashmir{
+.kashmir {
   background: linear-gradient(
-    0deg,
-    rgba(19, 19, 24, 0.2) 0%,
-    rgba(19, 19, 24, 0.2) 100%
-  ),
-  url("./Images/kashmir.png"), lightgray 50%;
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url("./Images/kashmir.png"), lightgray 50%;
 }
 
-
-.bangladesh{
+.bangladesh {
   background: linear-gradient(
-    0deg,
-    rgba(19, 19, 24, 0.2) 0%,
-    rgba(19, 19, 24, 0.2) 100%
-  ),
-  url("./Images/bangladesh.png"), lightgray 50%;
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url("./Images/bangladesh.png"), lightgray 50%;
 }
 
-.bandarban{
+.bandarban {
   background: linear-gradient(
-    0deg,
-    rgba(19, 19, 24, 0.2) 0%,
-    rgba(19, 19, 24, 0.2) 100%
-  ),
-  url("./Images/bandarban.png"), lightgray 50%;
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url("./Images/bandarban.png"), lightgray 50%;
 }
 
+.why-choose-section {
+  padding: 50px 0;
+}
+
+.why-choos-title {
+  color: rgb(19, 19, 24);
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 50px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.why-choose-desc {
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.why-row-one {
+  /* display: flex;
+  margin: 0 auto; */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  height: 300px;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-one {
+  box-sizing: border-box;
+  border: 1px solid rgba(251, 181, 99, 0.2);
+  border-radius: 16px;
+  background: rgba(251, 181, 99, 0.05);
+  padding: 30px;
+}
+.card-two {
+  box-sizing: border-box;
+  border: 1px solid rgba(41, 206, 246, 0.2);
+  border-radius: 16px;
+  background: rgba(41, 206, 246, 0.05);
+  padding: 30px;
+}
+
+.card-three {
+  box-sizing: border-box;
+  border: 1px solid rgba(233, 68, 68, 0.2);
+  border-radius: 16px;
+  background: rgba(3, 3, 3, 0.05);
+  padding: 30px;
+  width: 50%;
+  margin: 0 auto;
+}
