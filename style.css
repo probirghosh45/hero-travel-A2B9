@@ -178,3 +178,121 @@ height: 3rem;
   padding-top: 2rem;
 }
 
+/* Destination Section */
+
+/* .destination-section{
+
+} */
+
+.destination-title{
+  color: rgb(19, 19, 24);
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 50px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.destination-desc{
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.row-one , .row-three{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  height: 300px;
+  gap: 2rem;
+  border: 1px solid red;
+}
+
+.row-two{
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  height: 286px;
+  gap: 2rem;
+  margin: 1.5rem 0;
+}
+
+.destination-photo {
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 1.75rem;
+  font-weight: 800;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center; 
+}
+.maldives{
+    background: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url("./Images/maldives.png"), lightgray 50%;
+}
+
+.indonesia{
+  background: linear-gradient(
+    0deg,
+    rgba(19, 19, 24, 0.2) 0%,
+    rgba(19, 19, 24, 0.2) 100%
+  ),
+  url("./Images/indonesia.png"), lightgray 50%;
+}
+
+.srilanka{
+  background: linear-gradient(
+    0deg,
+    rgba(19, 19, 24, 0.2) 0%,
+    rgba(19, 19, 24, 0.2) 100%
+  ),
+  url("./Images/srilanka.png"), lightgray 50%;
+}
+
+.north-america{
+  background: linear-gradient(
+    0deg,
+    rgba(19, 19, 24, 0.2) 0%,
+    rgba(19, 19, 24, 0.2) 100%
+  ),
+  url("./Images/north-america.png"), lightgray 50%;
+}
+
+
+.kashmir{
+  background: linear-gradient(
+    0deg,
+    rgba(19, 19, 24, 0.2) 0%,
+    rgba(19, 19, 24, 0.2) 100%
+  ),
+  url("./Images/kashmir.png"), lightgray 50%;
+}
+
+
+.bangladesh{
+  background: linear-gradient(
+    0deg,
+    rgba(19, 19, 24, 0.2) 0%,
+    rgba(19, 19, 24, 0.2) 100%
+  ),
+  url("./Images/bangladesh.png"), lightgray 50%;
+}
+
+.bandarban{
+  background: linear-gradient(
+    0deg,
+    rgba(19, 19, 24, 0.2) 0%,
+    rgba(19, 19, 24, 0.2) 100%
+  ),
+  url("./Images/bandarban.png"), lightgray 50%;
+}
+
