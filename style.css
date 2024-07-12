@@ -135,4 +135,46 @@ height: 3rem;
   color: #fff;
 }
 
+/* Popular Section Style */
+
+.popular-section{
+  padding: 50px 0;
+}
+
+.popular-container{
+  display:  flex;
+}
+
+.popular-container img {
+  width: 540px;
+  height: 550px;
+  border-radius: 1 rem;
+}
+
+.popular-column-left{
+  width: 60%;
+}
+
+.popular-title{
+  color: rgb(19, 19, 24);
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 50px;
+  letter-spacing: 0%;
+}
+
+.popular-desc{
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  padding: 2rem 0;
+}
+
+.popular-desc ul {
+  padding-left: 2rem;
+  margin: 1.5rem 0;
+  padding-top: 2rem;
+}
 
