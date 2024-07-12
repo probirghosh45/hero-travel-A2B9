@@ -180,9 +180,9 @@ height: 3rem;
 
 /* Destination Section */
 
-/* .destination-section{
-
-} */
+.destination-section{
+  padding: 50px 0;
+}
 
 .destination-title{
   color: rgb(19, 19, 24);
@@ -208,7 +208,6 @@ height: 3rem;
   grid-template-columns: repeat(2,1fr);
   height: 300px;
   gap: 2rem;
-  border: 1px solid red;
 }
 
 .row-two{
@@ -227,9 +226,10 @@ height: 3rem;
   color: #fff;
   font-size: 1.75rem;
   font-weight: 800;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center; 
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center !important;
+  ; 
 }
 .maldives{
     background: linear-gradient(
