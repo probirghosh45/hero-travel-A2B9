@@ -227,9 +227,9 @@ input {
   color: #fff;
   font-size: 1.75rem;
   font-weight: 800;
-  background-repeat: no-repeat !important;
-  background-size: cover !important;
-  background-position: center !important;
+  background-repeat: no-repeat, no-repeat, no-repeat !important;
+  background-size: cover, cover, cover !important;
+  background-position: center, center, center !important;
 }
 .maldives {
   background: linear-gradient(
@@ -469,3 +469,154 @@ video {
   padding: 20px 0;
 }
 
+/* Responsive Style */
+
+@media screen and (max-width: 767px) {
+section {
+  margin-bottom : 2rem;
+}
+
+/* responsive navbar */
+.navbar-container {
+  gap: 1rem;
+}
+
+.title-name {
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+}
+
+navbar .title-text {
+  font-size: 1.25rem;
+}
+.title-name img {
+  width: 60%;
+}
+
+nav ul {
+  display: none;
+}
+
+nav .hamburger {
+  display: inline;
+  visibility: visible;
+  padding-bottom: 3.5rem;
+}
+
+/* responsive hero section */
+ 
+   .hero-container {
+    padding: 2rem;
+     }
+     .hero-title {
+      font-size: 1.5rem;
+     }
+
+     .hero-des {
+      width: 100%;
+      font-size: 1rem;
+     }
+
+     .hero-form{
+      flex-direction: column;
+      width: 80%; 
+    }
+
+    .hero-form select{
+      width: 100%;
+      margin:  0 auto;
+    }
+
+    .hero-form input{
+      width: 95%;
+      margin:  0 auto;
+    }
+
+    .submit-button {
+      width: 100%;
+    }
+
+    .popular-container {
+      flex-direction: column;
+      align-items: center;
+      gap: 0;
+    }
+
+    .popular-column-left{
+      width: 100%;
+      padding-bottom: 30px;
+    }
+    .popular-title , .destination-title,.why-choos-title{
+      font-size: 1.75rem;
+      text-align: center;
+    }
+
+    .popular-desc,.destination-desc,.why-choose-desc{
+      width: 100%;
+    }
+
+    .popular-column-right img{
+      width: 100%;
+      height: auto;
+    }
+
+    /* .destination-photos{
+      border: 1px solid #ccc;
+    } */
+
+    .row-one,.row-two,.row-three {
+      margin: 1rem auto !important;
+      grid-template-rows: 1fr !important;
+      grid-template-columns: 1fr !important;
+      height: auto !important;
+      /* border: 1px solid #ccc; */
+
+      /* display: flex !important;;
+      flex-direction: column !important; */
+    }
+
+
+    .why-row-one {
+       margin: 1rem auto;
+      grid-template-columns: 1fr;
+      height: auto;
+    }
+
+    .why-row-two {
+      padding-top: 1rem;
+    }
+    .card-three {
+      width: 100%;
+    }
+
+    .perfect-container {
+      flex-direction: column;
+    }
+
+    .perfect-column-left , .perfect-column-right {
+      width: 100%;
+      padding-bottom: 20px;
+    }
+    .perfect-title {
+      font-size: 1.5rem;
+      text-align: center;
+      padding: 0;
+      width: 100%;
+    }
+
+    /* footer */
+
+    
+.footer-title-text {
+  font-size: 15px;
+  font-weight: 800;
+  padding-left: 15px;
+  padding-top: 15px;
+
+}
+
+.footer-title-name {
+    justify-content: center;
+  }
+}
